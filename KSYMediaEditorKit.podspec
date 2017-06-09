@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "https://github.com/ksvc/KSYMediaEditorKit_iOS.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/dylanNew/KSYMediaEditorKit_iOS.git", :tag => "v#{s.version}" }
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -all_load' }
 
